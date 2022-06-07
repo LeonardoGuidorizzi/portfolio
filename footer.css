@@ -1,9 +1,25 @@
-
-footer{
-    background-color: bisque ;
-    position:relative;
+body{
+    background-color: blueviolet;
 }
-.basefooter{
-    color: aqua;
+footer{
+    display: flex;
+    text-align: center;
+    background-color:white;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+}
+.icones{
+display: flex;
+align-items: center;
+font-size: xx-large;
+justify-content: space-around;
+height: 100px;
+width: 100px;
+
+gap: 100px;
+
+
+    
     
 }
